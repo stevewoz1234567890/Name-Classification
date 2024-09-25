@@ -14,7 +14,8 @@ import string
 
 class RNN(nn.Module):
     def __init__(self, input_size: int, hidden_size: int, output_size: int):
-        super(RNN, self).__init__()
+        # super(RNN, self).__init__() # older syntax
+        super().__init__()
 
         self.hidden_size = hidden_size
 
