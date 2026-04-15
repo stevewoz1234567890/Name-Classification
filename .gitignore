@@ -1,2 +1,8 @@
-nameclass
-rnn/scripts/__pycache__
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+weights.pt
+*.pt
+!.gitkeep
